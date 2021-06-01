@@ -1,0 +1,30 @@
+{
+  "name": "team-proj-SimpleDO",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://d-afanasiev.github.io/team-proj-SimpleDO",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /team-proj-SimpleDO/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "jquery": "^3.6.0",
+    "parcel-bundler": "1.12.3",
+    "pixel-glass": "^1.0.13",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8",
+    "slick-carousel": "^1.8.1"
+  }
+}
